@@ -1,0 +1,25 @@
+<html>
+		<head>
+			<title>Toast</title>
+			<meta charset="utf-8">
+			<style type="text/css">
+			
+			</style>			
+		</head>
+		<body>
+				<button>Click me</button>
+			
+			<script type="text/javascript" src="jquery.js"></script>
+			<script type="text/javascript" src="toast.js"></script>
+		</body>
+
+		<script type="text/javascript">
+
+		var toast  = new Toast("Lets make a toast!!");
+		$('button').on('click',function(){
+
+			toast.makeToast();
+
+		});
+		</script>
+</html>

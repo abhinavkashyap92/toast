@@ -51,7 +51,6 @@ Toast.prototype.makeToast = function()
 		duration:900,
 		complete:function(){
 			$toast.fadeOut(1500);
-			$toast.remove();
 		}
 
 	});
